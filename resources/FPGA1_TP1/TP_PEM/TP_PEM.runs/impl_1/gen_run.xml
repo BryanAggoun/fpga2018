@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1517910447">
+  <File Type="PLACE-DCP" Name="Test_CPT_placed.dcp"/>
+  <File Type="PA-DCP" Name="Test_CPT.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Test_CPT_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Test_CPT_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Test_CPT_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="Test_CPT.tcl"/>
+  <File Type="OPT-HWDEF" Name="Test_CPT.hwdef"/>
+  <File Type="RDI-RDI" Name="Test_CPT.vdi"/>
+  <File Type="OPT-DCP" Name="Test_CPT_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Test_CPT_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Test_CPT_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Test_CPT_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Test_CPT_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Test_CPT_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="Test_CPT_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Test_CPT_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Test_CPT_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Test_CPT_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Test_CPT_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Test_CPT_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Test_CPT_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Test_CPT_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Test_CPT_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Test_CPT_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Test_CPT_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Test_CPT_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Test_CPT_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Test_CPT_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Test_CPT_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Test_CPT_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Test_CPT_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Test_CPT_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Test_CPT.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="Test_CPT_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="Test_CPT.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Test_CPT_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="Test_CPT.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Test_CPT_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Test_CPT.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Test_CPT_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Test_CPT_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Test_CPT_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Test_CPT_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Test_CPT_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Test_CPT_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Test_CPT_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Test_CPT_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Test_CPT_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Test_CPT_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Test_CPT_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Test_CPT_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Test_CPT_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Test_CPT_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Test_CPT_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Test_CPT.bit"/>
+  <File Type="BITSTR-RBT" Name="Test_CPT.rbt"/>
+  <File Type="BITSTR-NKY" Name="Test_CPT.nky"/>
+  <File Type="BITSTR-BMM" Name="Test_CPT_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Test_CPT.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Test_CPT.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/1_Compteurs_Imbriques/Test_CPT.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Partie_2_Cas_Etudes/1_Compteurs_Imbriques/Test_CPT.vhd"/>
+        <Attr Name="ImportTime" Val="1475051000"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Test_CPT"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Partie_1_Prise_en_Main/Test_Nexys4.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Partie_1_Prise_en_Main/Test_Nexys4.xdc"/>
+        <Attr Name="ImportTime" Val="1474920742"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 06 10:18:37 2018
+# Process ID: 5152
+# Current directory: C:/Users/3408804/Downloads/FPGA1_TP1/TP_PEM/TP_PEM.runs/impl_1
+# Command line: vivado.exe -log Test_CPT.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Test_CPT.tcl -notrace
+# Log file: C:/Users/3408804/Downloads/FPGA1_TP1/TP_PEM/TP_PEM.runs/impl_1/Test_CPT.vdi
+# Journal file: C:/Users/3408804/Downloads/FPGA1_TP1/TP_PEM/TP_PEM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Test_CPT.tcl -notrace

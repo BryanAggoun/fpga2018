@@ -1,0 +1,332 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 06 12:55:02 2018
+# Process ID: 5248
+# Current directory: C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.runs/synth_1/Top.vds
+# Journal file: C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5844 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 325.352 ; gain = 114.250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top' [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/Top.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'IMPULSE_COUNT' [C:/Users/3408804/Downloads/FPGA1_TP1/Partie_2_Cas_Etudes/2_Compteur_Impulsions/impulse_count_.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'IMPULSE_COUNT' (1#1) [C:/Users/3408804/Downloads/FPGA1_TP1/Partie_2_Cas_Etudes/2_Compteur_Impulsions/impulse_count_.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'Selector' [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/Selector.vhd:34]
+INFO: [Synth 8-226] default block is never used [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/Selector.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'Selector' (2#1) [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/Selector.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/FSM.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (3#1) [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/FSM.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Top' (4#1) [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/sources_1/imports/3_Decodeur_Machine_Etats/Top.vhd:27]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 362.910 ; gain = 151.809
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 362.910 ; gain = 151.809
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/constrs_1/imports/3_Decodeur_Machine_Etats/TOP_Nexys4.xdc]
+Finished Parsing XDC File [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/constrs_1/imports/3_Decodeur_Machine_Etats/TOP_Nexys4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.srcs/constrs_1/imports/3_Decodeur_Machine_Etats/TOP_Nexys4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 672.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/3408804/Downloads/FPGA1_TP1/Partie_2_Cas_Etudes/2_Compteur_Impulsions/impulse_count_.vhd:65]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               28 Bit    Registers := 1     
+	               26 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     28 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module IMPULSE_COUNT 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+Module Selector 
+Detailed RTL Component Info : 
++---Registers : 
+	               28 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     28 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+Module FSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[0]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[1]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[2]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[3]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[4]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[5]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[6]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[7]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[8]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[9]' (FDCE) to 'Sel/Limit_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[10]' (FDCE) to 'Sel/Limit_reg[24]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[11]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[12]' (FDCE) to 'Sel/Limit_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[13]' (FDCE) to 'Sel/Limit_reg[24]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[14]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[15]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[16]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[17]' (FDCE) to 'Sel/Limit_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[18]' (FDCE) to 'Sel/Limit_reg[24]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[19]' (FDCE) to 'Sel/Limit_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[21]' (FDCE) to 'Sel/Limit_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[22]' (FDCE) to 'Sel/Limit_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[23]' (FDCE) to 'Sel/Limit_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Sel/Limit_reg[25]' (FDCE) to 'Sel/Limit_reg[26]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    32|
+|3     |LUT1   |    51|
+|4     |LUT2   |    75|
+|5     |LUT3   |     3|
+|6     |LUT4   |    20|
+|7     |LUT5   |    11|
+|8     |LUT6   |     7|
+|9     |FDCE   |    87|
+|10    |IBUF   |     5|
+|11    |OBUF   |     4|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+--------------+------+
+|      |Instance  |Module        |Cells |
++------+----------+--------------+------+
+|1     |top       |              |   296|
+|2     |  Impulse |IMPULSE_COUNT |   209|
+|3     |  MAE     |FSM           |    72|
+|4     |  Sel     |Selector      |     5|
++------+----------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 672.891 ; gain = 112.078
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 672.891 ; gain = 461.789
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 672.891 ; gain = 433.176
+INFO: [Common 17-1381] The checkpoint 'C:/Users/3408804/Downloads/FPGA1_TP1/project_2/project_2.runs/synth_1/Top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 672.891 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 06 12:55:30 2018...

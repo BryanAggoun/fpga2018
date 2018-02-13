@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/3408804/Downloads/FPGA1_TP1/TP_PEM/TP_PEM.srcs/sources_1/imports/1_Compteurs_Imbriques/Test_CPT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Test_CPT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/3408804/Downloads/FPGA1_TP1/TP_PEM/TP_PEM.srcs/sim_1/imports/Partie_1_Prise_en_Main/TB_Test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Test
